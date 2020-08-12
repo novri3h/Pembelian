@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\pembeliansetup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system32\comctl32.ocx=
+c:\windows\system32\crpe32.dll=
+c:\windows\system32\crystl32.ocx=
+c:\program files\common files\system\ado\msado20.tlb=
+c:\windows\system32\msadodc.ocx=
+c:\windows\system32\msbind.dll=
+c:\windows\system32\msdatgrd.ocx=
+c:\windows\system32\msdatlst.ocx=
+c:\windows\system32\msstdfmt.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Data Buku VB\Buku 4\Program 2 Pembelian\Program Pembelian.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=No
+C:\WINDOWS\system32\MSSTDFMT.DLL=No
+C:\WINDOWS\system32\MSDATGRD.OCX=No
+C:\WINDOWS\system32\MSDATLST.OCX=No
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\Crystl32.OCX=No
+C:\WINDOWS\system32\crpe32.dll=No
+C:\WINDOWS\system32\MSBIND.DLL=No
+C:\WINDOWS\system32\comctl32.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Data Buku VB\Buku 4\Program 2 Pembelian\Program Pembelian.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Data Buku VB\Buku 4\Program 2 Pembelian\Program Pembelian.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1="Program Pembelian.EXE"
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=e:\pembeliansetup
+ProjectFolder=D:\Data Buku VB\Buku 4\Program 2 Pembelian
+ServerSideCab=
+File1=e:\pembeliansetup\setup.exe
+File2=e:\pembeliansetup\Setup.Lst
+File3=e:\pembeliansetup\Program Pembelian.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
